@@ -3,7 +3,7 @@ if(this.table.rowManager.element.scrollHeight > this.table.rowManager.element.cl
 		}
 		
 		this.columnsByIndex.forEach(function(column){
-			var width, minWidth, colWidth;
+			var width, minWidth, colWidth;//good
 			
 			if(column.visible){
 				
